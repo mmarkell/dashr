@@ -1,0 +1,154 @@
+body{
+	color: white;
+	font-family: Helvetica;
+	background-color: #e2e2e2;
+	height: 100%;
+	margin: 0;
+}
+
+ul {
+	background-color: #3FADCC;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica;
+	font-size: 22px;
+	text-align: center;
+	letter-spacing: 4px;
+	font-weight: bold;
+	height: 100%;
+}
+
+li{
+	display: block;
+	padding: 30px 0px;
+}
+
+li:hover {
+	display: block;
+	background-color: #76B9CC;
+}
+
+a:link, a:visited {
+	display: block;
+	font-family: Helvetica;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover, a:active {
+	color: #F89F44;
+}
+
+.home {
+	background-image: url("/static/img/LongDasherTop.png");
+	width: 100%;
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.profilelink {
+	background-color: #F89F44;
+	height: 100px;
+	text-align: center;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.profilelink:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#kayaking{
+	float: right;
+	margin: 15px;
+	width: 60%;
+	background-color: white;
+}
+
+#nav {
+	background-color: #38ADCE;
+	padding-top: 50px;
+	width: 30%;
+	display: table-cell;
+	vertical-align: top;
+}
+
+#mainpage {
+	display: table-cell;
+	vertical-align: top;
+	width: 60%;
+}
+
+.container {
+	display: table;
+}
+
+
+html {
+	height: 100%;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-size: 50px;
+	letter-spacing: 5px;
+	padding: 20px;
+	color: #F89F44;
+	font-weight: lighter;
+	margin: 0;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-size: 35px;
+	letter-spacing: 2px;
+	padding: 10px;
+	color: #76B9CC;
+	font-weight: lighter;
+	text-align: left;
+	margin: 0;
+}
+
+h3 {
+	font-family: Helvetica;
+	font-size: 25px;
+	letter-spacing: 2px;
+	padding: 10px;
+	color: #F89F44;
+	font-weight: lighter;
+	text-align: left;
+	margin: 0;
+}
+
+
+.homesquares {
+	background-color: white;
+	padding: 12px;
+	margin: 31px;
+	margin-top: 0px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.category {
+	width: 30%;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	float: left;
+}
+
+img {
+	padding: 15px;
+}
+
+p {
+	color: #000000;
+}

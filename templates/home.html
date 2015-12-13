@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block head %}
+	{{ super() }}
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="../static/home.css">
+{% endblock %}
+
+{% block content %}
+<div id="mainpage">
+	<h1>hello {{users[0].name}} </h1>
+	<div id="myherds" class="homesquares">
+		<h2>my herds</h2><br><br>
+		<img src="/static/img/knitting.jpg" width="200px">
+		<img src="/static/img/candlemaking.jpg" width="200px">
+		<img src="/static/img/reindeerwatching.jpg" width="200px">
+
+		<a href="/kayaking"><img src="/static/img/kayaking.jpg" width="200px"></a>
+		<img src="/static/img/drooling.jpg" width="200px">
+		<img src="/static/img/sliding.jpg" width="200px">
+		<img src="/static/img/underwaterbasketweaving.jpg"width="200px">
+	</div>
+	<div id="findmore" class="homesquares">
+		<h2>find more</h2>
+		<h3>recommended</h3>
+		<div class="category">
+			<img src="/static/img/underwaterbasketweaving.jpg" width="160px">
+			<img src="/static/img/underwaterbasketweaving.jpg" width="160px">
+			<img src="/static/img/underwaterbasketweaving.jpg" width="160px">
+		</div>
+		<h3>popular</h3>
+		<div class="category">
+			<img src="/static/img/reindeerwatching.jpg" width="160px">
+			<img src="/static/img/reindeerwatching.jpg" width="160px">
+			<img src="/static/img/reindeerwatching.jpg" width="160px">
+		</div>
+		<h3>random</h3>
+		<div class="category">
+			<img src="/static/img/drooling.jpg" width="160px">
+			<img src="/static/img/drooling.jpg" width="160px">
+			<img src="/static/img/drooling.jpg" width="160px"> 
+		</div>
+	</div>
+</div>
+{% endblock %}
+

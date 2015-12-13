@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Home</title>
+	<link rel="icon" href="LongDasherIcon.png" type="img/gif">
+	<link rel="stylesheet" type="text/css" href="../static/profile.css">
+</head>
+<body>	 
+	<div class="container">
+		<div id="nav">
+			<div class="home">
+				<a href="/home"></a>
+			</div>
+			<div class="profilelink">
+				<!-- this will link you to your own profile -->
+				<a href="/profile"><img src="/static/img/sampleprofile.png" width="100px"/></a>
+			</div>
+			<div class="sidebar">
+				<ul>
+				<!-- sidebar -->
+				<li><a href="/home">home</a></li>
+				<!-- <li><a href="/herds">herds</a></li> -->
+				<li><a href="/message">message</a></li>
+				<li><a href="/settings">settings</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="mainpage">
+			<div id="profile">
+				<h1>profile</h1>
+				<div id="left">
+					<img src="{{user.image_url}}" width="400px"/>
+					<div id="bio">
+						<h2>{{user.name}} </h2>
+						<h3>{{user.gender}}, {{user.age}} </h3>
+						<h3> location: {{user.state}} </h3>
+						<h3> language: {{user.language}} </h3>
+						<br>
+						<h3>bio: {{user.description}}</h3>
+						<!-- <p> {{user.interests}}</p> -->
+					</div>
+				</div>
+				<div id="right">
+					<h2> herds </h2>
+					<div>
+					{% for interests in user.interests %}
+						{{interests.image_url}}
+							<div id = "imgContainer">
+							<img src={{interests.image_url}} id = "firstRow" />
+							</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

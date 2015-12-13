@@ -1,0 +1,33 @@
+body {
+	background-color: #38ADCE;
+	font: Helvetica;
+	font-size: 20px;
+}
+
+#nav {
+	display: block;
+	width: 100px;
+
+}
+
+#image {
+	width: 500px;
+	margin: auto;
+}
+
+#enter {
+	width: 500px;
+	margin: auto;
+}
+
+#enter:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+a:link {
+}
+
+a:hover {
+	color: F89F44;
+}

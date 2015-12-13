@@ -1,0 +1,162 @@
+body{
+	color: white;
+	font-family: Helvetica;
+	background-color: #e2e2e2;
+	height: 100%;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica;
+	font-size: 22px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+li{
+	padding: 30px 0px;
+}
+
+li:hover {
+	background-color: #76B9CC;
+}
+
+a:link, a:visited{
+	display: block;
+	font-family: Helvetica;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover, a:active {
+	color: #F89F44;
+}
+
+.home {
+	background-image: url("/static/img/LongDasherTop.png");
+	width: 100%;
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.home:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#mainpage {
+	display: table-cell;
+	vertical-align: top;
+}
+
+#profile{
+	display:table;
+}
+
+.profilelink {
+	background-color: #F89F44;
+	height: 100px;
+	text-align: center;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.profilelink:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#nav {
+	background-color: #38ADCE;
+	width: 30%;
+	display: table-cell;
+}
+
+.container {
+	display: table;
+}
+
+html {
+	height: 100%;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-size: 50px;
+	letter-spacing: 5px;
+	padding: 10px;
+	color: #F89F44;
+	font-weight: lighter;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-size: 35px;
+	letter-spacing: 2px;
+	padding: 10px;
+	color: #76B9CC;
+	font-weight: lighter;
+}
+
+h3 {
+	font-family: Helvetica;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 10px;
+	color: #121212;
+	font-weight: lighter;
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 14px;
+	letter-spacing: 2px;
+	padding: 10px;
+	color: #121212;
+	font-weight: lighter;
+}
+
+#bio {
+	background-color: white;
+	padding: 5px;
+	margin: 15px;
+	width: auto;
+	height: auto;
+	text-align: left;
+}
+
+#right {
+	background-color: white;
+	padding: 15px;
+	margin: 15px;
+	width: auto;
+	height: auto;
+	text-align: left;
+	display: table-cell;
+}
+
+#left{
+	float: left;
+	width: 450px;
+	text-align: center;
+	margin: 15px;
+	display:table-cell;
+}
+
+#imgContainer{
+	float:left;
+	width:50%;
+	text-align:center;
+}
+
+#firstRow {
+	width: 50%;
+	height: 50%;
+}
+
